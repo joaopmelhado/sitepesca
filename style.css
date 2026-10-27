@@ -1,0 +1,59 @@
+/* 1. Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* 2. Seletor de Tag: Estilo geral da página */
+body {
+    background-color: #e0f7fa; /* Cor de fundo */
+    font-family: 'Nunito', sans-serif; /* Troca da fonte */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+}
+
+/* 3. Agrupamento de Tags: Cor diferente para títulos */
+h1, h2, h3 {
+    color: #006064; 
+}
+
+/* 4. Seletor de Tag: Título principal */
+h1 {
+    text-align: center; /* Alinha no centro */
+    font-size: 40px; /* Modifica o tamanho */
+    text-transform: uppercase; /* Deixa o texto todo em maiúsculo */
+}
+
+/* 5. Seletor de Classe e Box Model */
+.cartao {
+    /* Box Model: Largura, Margem externa e Preenchimento interno */
+    max-width: 700px; 
+    margin: 30px auto; 
+    padding: 30px; 
+    
+    background-color: #ffffff; /* Fundo branco da caixa */
+    
+    /* 3 propriedades de Borda */
+    border-width: 3px; 
+    border-style: dashed; 
+    border-color: #00bcd4; 
+}
+
+/* 6. Estilo de Listas */
+ul {
+    list-style-type: square; /* Troca a bolinha por quadrado */
+}
+
+ol {
+    list-style-type: lower-alpha; /* Troca número por letra (a, b, c) */
+    background-color: #fff9c4; /* Fundo amarelo na lista */
+    padding: 20px 40px;
+}
+
+/* 7. Seletor de ID */
+#despedida {
+    text-align: center;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Ajuste simples para a imagem não vazar da tela */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
